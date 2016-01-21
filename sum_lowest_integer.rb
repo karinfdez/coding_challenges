@@ -10,6 +10,9 @@ def sum_lower (array)
 	# array.sort[0..1].inject(:+)
 	#or
 	array.sort![0..1].reduce(:+)
+
+	#solution 3
+	# array.sort!.first(2).reduce(:+)
 end
 
 p sum_lower([3,4,1,2,5])
