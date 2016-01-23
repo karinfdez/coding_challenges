@@ -7,14 +7,14 @@
 
 def isAnagram?(test,original)
 
-    isBlock=proc {
-    	test.downcase.chars.sort!.join==original.downcase.chars.sort!.join
+    isBlock=proc { | word1, word2 |
+    	word1.downcase.chars.sort!.join==word2.downcase.chars.sort!.join
     }
     #Remove all non-alphanumeric characters.
     test.gsub!(/\W+/, '')
     original.gsub!(/\W+/, '')	
     
-	test.length==original.length ? isBlock.call : false 
+	test.length==original.length ? isBlock.call(test, original) : false 
 end
 
 p isAnagram?("hello","12345")==false
