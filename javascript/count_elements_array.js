@@ -1,4 +1,4 @@
-//Write a function that will print distinct counts of the items in this list:
+
 // Function that calculates total of numbers and strings in an array
 var array=[1,2,3,4,4,3,2,3,4,5,6,2,2,4,5,6,7,2,2,9,9,5,4,3,3,5,6,7,8,8,6,5,4,3,2,2,4,"4",5,6,7,9,0,8,7,5,4,6,0,0,0,8,7,4,3]
 
