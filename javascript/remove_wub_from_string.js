@@ -10,3 +10,11 @@ function songDecoder(song){
 console.log(songDecoder("WUBHELLOWUB"));
 console.log(songDecoder("AWUBWUBWUBBWUBWUBWUBC"));
 console.log(songDecoder("AWUBBWUBC"));
+
+
+
+
+// Other variations:
+
+// 1) return song.replace(/(WUB)+/g," ").trim();
+// 2) return song.split('WUB').filter(Boolean).join(' ');
