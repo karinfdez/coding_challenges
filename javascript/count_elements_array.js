@@ -21,14 +21,15 @@ function countItems(array,number,typeOf){
 
 
 // Calculate amount of specific number:
+// Calculate amount of specific number:
 console.log(countItems(array,1,'number'));
 console.log(countItems(array,2,'number'));
-console.log(countItems(array,3,'number'));
+console.log(countItems(array,3,'string'));
 console.log(countItems(array,4,'number'));
 console.log(countItems(array,5,'number'));
 console.log(countItems(array,6,'number'));
-console.log(countItems(array,7,'number'));
+console.log(countItems(array,7,'string'));
 console.log(countItems(array,8,'number'));
 console.log(countItems(array,9,'number'));
-console.log(countItems(array,0,'number'));
+console.log(countItems(array,0,'array'));
 
